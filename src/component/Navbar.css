@@ -1,0 +1,12 @@
+.navbar{
+    background-color: black;
+    color: white;
+}
+.navbar a{
+    color: white;
+    font-size: 23px;
+    margin-left: 20px;
+}
+.navbar a:hover{
+    color: crimson;
+}
