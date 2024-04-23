@@ -58,12 +58,12 @@ export default function Main() {
           <input type="date" value={birthDate} className='input p-2'onChange={(e) => setBirthday(e.target.value)}></input>
           <button onClick={calculateAge} id="age" className='btn btn-success'>calculate</button>
         </div>
-        <p className='mt-4 fs-4'>
+        <p className='mt-4 fs-3'>
         YEAR: {age.years} <br />
         MONTH: {age.months} <br />
         DAY: {age.days}
       </p>
-      <button className='btn btn-info'onClick={resetAge}>Reset</button>
+      <button className='btn btn-danger 'onClick={resetAge}>Reset</button>
       </div>
     </>
   )
