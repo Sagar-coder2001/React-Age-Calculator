@@ -47,9 +47,7 @@ export default function Main() {
     setBirthday("")
     setAge({ years: 0, months: 0, days: 0 });
   };
-
-
-
+  
   return (
     <>
       <div className="container agecalculator text-center">
